@@ -1,0 +1,11 @@
+n=int(input("enter a number"))
+sum=0
+i=0
+c=0
+while i<=n:
+    sum+=n
+    c+=1
+    average=sum/n
+    i+=1
+print("average=",average)
+print("sum=",sum)
